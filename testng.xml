@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.companya.tcuv.HomePageTest"/>
+      <class name="com.companya.tcuv.FooterTest"/>
+      <class name="com.companya.tcuv.SearchInventory"/>
+      <class name="com.companya.tcuv.VehicleTile"/>
+      <class name="com.companya.tcuv.LocalSpecials"/>
+      <class name="com.companya.tcuv.FindaDealer"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
